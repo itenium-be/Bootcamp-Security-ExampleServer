@@ -1,7 +1,6 @@
 Example Server
 ==============
 
-Maybe you want to send something to yourself, mm?  
 Here is an example server you can use...
 
 The Receiving
