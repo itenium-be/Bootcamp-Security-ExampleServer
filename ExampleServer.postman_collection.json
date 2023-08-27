@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "2a6f8e81-86ab-45c1-adcd-e1574446d5ba",
+		"name": "ExampleServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19973091"
+	},
+	"item": [
+		{
+			"name": "POST /grab-something",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": \"yaye\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/grab-something",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grab-something"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

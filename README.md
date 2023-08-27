@@ -21,15 +21,19 @@ The Sending
 
 Right now `server.js` will print anything you send as the request body.
 
-```js
+Opening a HTML page with the following content would be interesting.
+
+```html
 <script>
 fetch('http://_your_ip_:5000/grab-something', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(/* something interesting here */),
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({payload: 'something interesting here'}),
 });
 </script>
 ```
+
+Also see `ExampleServer.postman_collection.json` to run a local test.
 
 
 The Protecting
