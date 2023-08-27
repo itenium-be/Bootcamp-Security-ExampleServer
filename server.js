@@ -19,4 +19,4 @@ app.post('/grab-something', async (req, res) => {
 
 
 const PORT = 5000;
-app.listen(PORT, () => console.log(`Portal running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Example server running on port ${PORT}`));
