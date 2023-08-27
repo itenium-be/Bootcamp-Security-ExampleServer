@@ -15,6 +15,14 @@ npm start
 
 Endpoint: `http://_your_ip_:5000/grab-something`
 
+### With Docker
+
+```sh
+cd Bootcamp-Security-ExampleServer
+docker build -t example-server .
+docker run -p 5000:5000 example-server
+```
+
 
 The Sending
 -----------
