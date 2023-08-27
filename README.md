@@ -26,7 +26,7 @@ Right now `server.js` will print anything you send as the request body.
 fetch('http://_your_ip_:5000/grab-something', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(/* something interesting here */);
+    body: JSON.stringify(/* something interesting here */),
 });
 </script>
 ```
